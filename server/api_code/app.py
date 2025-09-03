@@ -4,6 +4,9 @@ import jiosaavn
 import os
 from traceback import print_exc
 from flask_cors import CORS
+# app.py
+from . import jiosaavn  # if jiosaavn.py is in the same folder as app.py
+
 
 app = Flask(__name__)
 app.secret_key = os.environ.get("SECRET", 'thankyoutonystark#weloveyou3000')
