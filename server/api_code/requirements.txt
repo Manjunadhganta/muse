@@ -4,3 +4,4 @@ requests
 pyDes
 flask-cors
 jiosaavn
+pydantic<2.0
