@@ -1,11 +1,13 @@
+from api_code import endpoints
+from api_code import helper
+from api_code import jiosaavn
+
 from flask import Flask, request, redirect, jsonify, json
 import time
 import jiosaavn
 import os
 from traceback import print_exc
 from flask_cors import CORS
-# app.py
-from . import jiosaavn  # if jiosaavn.py is in the same folder as app.py
 
 
 app = Flask(__name__)
